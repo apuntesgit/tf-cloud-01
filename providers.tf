@@ -18,6 +18,7 @@ provider "aws" {
       "${var.company}:project"     = var.project
       created_by                   = "terraform"
       disposable                   = true
+      "tag_test" = "test"
     }
   }
 }
